@@ -83,7 +83,7 @@ class Normalize
     #       input for the year field is a valid input.
     def validate_year(input, year)
         max_year = Date.today.year + 2
-        if year > (max_year) || year < 1900
+        if year > max_year || year < 1900
             puts "The year inputted: \"#{year}\" is invalid. The year must be between 1900 to #{max_year}"
             puts "Input can't be normalize: #{input.inspect}\n\n"
             return false
