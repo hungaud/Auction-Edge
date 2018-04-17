@@ -17,7 +17,6 @@ class Normalize
         @file = file
         prompt_intro
         @car_make = Set.new
-        @num_error = 0
     end
 
     # post: create a set of car make name as a database
