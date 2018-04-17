@@ -31,7 +31,7 @@ class Normalize
     # post: given block by Auction Edge with an array that includes several problems that
     #       the company faces. Each index includes what the user input and the expected
     #       output. Any failed normalization will print what the expected output should be.
-    def given_block()
+    def given_block
         examples = [
         [{ :year => '2018', :make => 'fo', :model => 'focus', :trim => 'blank' },
          { :year => 2018, :make => 'Ford', :model => 'Focus', :trim => nil }],
