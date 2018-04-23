@@ -65,7 +65,7 @@ class Normalize
         return input unless validate_year(input, year)
         input[:year] = year
 
-        make = validate_make(input, input[:make])
+        make = validate_make(input[:make])
         input[:make] = make
 
         model_array = input[:model].split
@@ -92,11 +92,9 @@ class Normalize
     # post: iterate through the set to find if user's input for "make" is a short hand
     #       of a make. It takes the first find that starts with user's input and returns
     #       it. If it can't find it then returns the original "make".
-    def validate_make(input, make)
-        unless @car_make.include?(make)
-            @car_make.each do |brand_name|
-                return brand_name if brand_name.start_with?(make.downcase.capitalize)
-            end
+    def validate_make(make)
+        @car_make.each do |brand_name|
+            return brand_name if brand_name.start_with?(make.downcase.capitalize)
         end
         make
     end

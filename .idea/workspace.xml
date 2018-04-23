@@ -11,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Auction_Edge@Normalize.coverage" NAME="Normalize Coverage Results" MODIFIED="1524508852483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
-    <SUITE FILE_PATH="coverage/Auction_Edge@normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1524510163694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
+    <SUITE FILE_PATH="coverage/Auction_Edge@normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1524511160670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
     <SUITE FILE_PATH="coverage/AuctionEdge@normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1523961225568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
   </component>
   <component name="FileEditorManager">
@@ -19,8 +19,8 @@
       <file leaf-file-name="normalize.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/normalize.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-657">
-              <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+            <state relative-caret-position="675">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,9 +95,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,12 +177,15 @@
       <workItem from="1524005569870" duration="27000" />
       <workItem from="1524005683015" duration="9000" />
       <workItem from="1524508746129" duration="916000" />
-      <workItem from="1524509995859" duration="186000" />
+      <workItem from="1524509995859" duration="247000" />
+      <workItem from="1524510262112" duration="15000" />
+      <workItem from="1524510884422" duration="28000" />
+      <workItem from="1524511017278" duration="163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19383000" />
+    <option name="totallyTimeSpent" value="19650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -283,6 +286,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/normalize.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/normalize.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/normalize.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/normalize.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -292,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/normalize.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-657">
-          <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        <state relative-caret-position="675">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
