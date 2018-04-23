@@ -11,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Auction_Edge@Normalize.coverage" NAME="Normalize Coverage Results" MODIFIED="1524508852483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
-    <SUITE FILE_PATH="coverage/Auction_Edge@normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1524511404921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
+    <SUITE FILE_PATH="coverage/Auction_Edge@normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1524511966946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
     <SUITE FILE_PATH="coverage/AuctionEdge@normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1523961225568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AuctionEdge" />
   </component>
   <component name="FileEditorManager">
@@ -19,8 +19,8 @@
       <file leaf-file-name="normalize.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/normalize.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="93" column="69" lean-forward="true" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
+            <state relative-caret-position="396">
+              <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,12 +180,13 @@
       <workItem from="1524509995859" duration="247000" />
       <workItem from="1524510262112" duration="15000" />
       <workItem from="1524510884422" duration="28000" />
-      <workItem from="1524511017278" duration="441000" />
+      <workItem from="1524511017278" duration="511000" />
+      <workItem from="1524511839105" duration="171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19928000" />
+    <option name="totallyTimeSpent" value="20169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -310,6 +311,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/normalize.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/normalize.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -319,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/normalize.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="93" column="69" lean-forward="true" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
+        <state relative-caret-position="396">
+          <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="14" />
           <folding />
         </state>
       </provider>

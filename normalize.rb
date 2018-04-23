@@ -93,9 +93,11 @@ class Normalize
     #       of a make. It takes the first find that starts with user's input and returns
     #       it. If it can't find it then returns the original "make".
     def validate_make(make)
-        @car_make.each do |brand_name|
-            return brand_name if brand_name.start_with?(make.downcase.capitalize)
-        end
+        unless @car_make.include?(make)
+            @car_make.each do |brand_name|
+                return brand_name if brand_name.start_with?(make.downcase.capitalize)
+            end
+       end
         make
     end
 
