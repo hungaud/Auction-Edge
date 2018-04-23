@@ -19,8 +19,8 @@
       <file leaf-file-name="normalize.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/normalize.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="102" column="0" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -181,12 +181,12 @@
       <workItem from="1524510262112" duration="15000" />
       <workItem from="1524510884422" duration="28000" />
       <workItem from="1524511017278" duration="511000" />
-      <workItem from="1524511839105" duration="235000" />
+      <workItem from="1524511839105" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20233000" />
+    <option name="totallyTimeSpent" value="20423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -328,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/normalize.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="100" column="8" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
           <folding />
         </state>
       </provider>

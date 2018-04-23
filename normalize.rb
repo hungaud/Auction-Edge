@@ -97,7 +97,7 @@ class Normalize
             @car_make.each do |brand_name|
                 return brand_name if brand_name.start_with?(make.downcase.capitalize)
             end
-       end
+        end
         make
     end
 
