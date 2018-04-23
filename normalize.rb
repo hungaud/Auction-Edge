@@ -65,7 +65,7 @@ class Normalize
         return input unless validate_year(input, year)
         input[:year] = year
 
-        make = validate_make(input, input[:make].downcase.capitalize)
+        make = validate_make(input, input[:make])
         input[:make] = make
 
         model_array = input[:model].split
@@ -95,7 +95,7 @@ class Normalize
     def validate_make(input, make)
         unless @car_make.include?(make)
             @car_make.each do |brand_name|
-                return brand_name if brand_name.start_with?(make)
+                return brand_name if brand_name.start_with?(make.downcase.capitalize)
             end
         end
         make
