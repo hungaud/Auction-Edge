@@ -44,10 +44,12 @@ class Normalize
         ]
 
         examples.each_with_index do |(input, expected_output), index|
-            if (output = normalize_data(input)) != expected_output
+            if (output = normalize_data(input)) == expected_output
+                puts "Example #{index + 1} passed!"
+            else
                 puts "Example #{index + 1} failed,
-                Expected: #{expected_output.inspect}
-                Got:      #{output.inspect}\n\n"
+          Expected: #{expected_output.inspect}
+          Got:      #{output.inspect}"
             end
         end
     end
@@ -83,12 +85,7 @@ class Normalize
     #       input for the year field is a valid input.
     def validate_year(input, year)
         max_year = Date.today.year + 2
-        if year > max_year || year < 1900
-            puts "The year inputted: \"#{year}\" is invalid. The year must be between 1900 to #{max_year}"
-            puts "Input can't be normalize: #{input.inspect}\n\n"
-            return false
-        end
-        true
+        year <= max_year && year >= 1900
     end
 
     # pre:  car make in set
@@ -100,8 +97,6 @@ class Normalize
             @car_make.each do |brand_name|
                 return brand_name if brand_name.start_with?(make)
             end
-            puts "The make inputted: \"#{make}\" is invalid or not in the \"make\" database."
-            puts "Input can't be normalize #{input.inspect}\n\n"
         end
         make
     end
