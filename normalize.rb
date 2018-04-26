@@ -26,7 +26,7 @@ class Normalize
     #       used a hash set since each make should be unique.
     def create_list
         car_set = @car_make
-        File.open(@file).each do|word|
+        File.open(@file).each do |word|
             car_set.add(word.to_s.strip)
         end
     end
