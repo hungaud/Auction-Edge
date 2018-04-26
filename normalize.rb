@@ -5,6 +5,9 @@
 # This program normalizes a small set of data. Many time users will have typos or
 # use shorthand in a given field. The small set of data are some of the example problems
 # that Auction Edge encounter.
+#
+# Used Ruby gem 2.4.3 
+
 
 require 'set'
 require 'date'
@@ -48,8 +51,8 @@ class Normalize
                 puts "Example #{index + 1} passed!"
             else
                 puts "Example #{index + 1} failed,
-          Expected: #{expected_output.inspect}
-          Got:      #{output.inspect}"
+                Expected: #{expected_output.inspect}
+                Got:      #{output.inspect}"
             end
         end
     end
