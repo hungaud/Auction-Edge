@@ -6,7 +6,7 @@
 # use shorthand in a given field. The small set of data are some of the example problems
 # that Auction Edge encounter.
 #
-# Used Ruby gem 2.4.3 
+# Used Ruby gem 2.4.3
 
 
 require 'set'
